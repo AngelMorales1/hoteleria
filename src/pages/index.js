@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-    
+    <div>
+        <h1 className='font-sans  hover:font-serif'>sadsad</h1>
+        <h2>ghgfgfgfg</h2>
     </div>
   )
 }
