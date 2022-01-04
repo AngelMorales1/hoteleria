@@ -1,11 +1,12 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import { Template } from '../components/templates/template.component'
+import { HomePage } from '../views/home/home.component'
 
 export default function Home() {
   return (
     <div>
-        <h1 className='font-sans  hover:font-serif'>sadsadasdad</h1>
-        <h2>ghgfgfgfg</h2>
+        <Template>
+          <HomePage/>
+        </Template>
     </div>
   )
 }
