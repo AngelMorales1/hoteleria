@@ -29,7 +29,7 @@ export const Navbar = ()=>{
                     <div>
                         <Image src={logo2}/>
                     </div>
-                    <div className='flex flex-column space-x-20 '>
+                    <div className='flex flex-column space-x-3 xl:space-x-20 lg:space-x-10'>
                         <Typography variant='p' fontWeight='400' fontSize='16px' color='#404040'>INICIO </Typography>
                         <Typography variant='p' fontWeight='400' fontSize='16px' color='#404040'>NOSOTROS </Typography>
                         <Typography variant='p' fontWeight='400' fontSize='16px' color='#404040'>EMPRESA </Typography>
