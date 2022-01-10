@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       borderRadius: {
         'large': '50px',
+        'Xlarge': '100px'
       }
     },
   },
