@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
@@ -8,8 +9,13 @@ module.exports = {
       borderRadius: {
         'large': '50px',
         'Xlarge': '100px'
+      },
+      screens: {
+        'mini': '340px',
+        ...defaultTheme.screens
       }
     },
   },
-  plugins: [],
+  variants: {},
+  plugins: []
 }

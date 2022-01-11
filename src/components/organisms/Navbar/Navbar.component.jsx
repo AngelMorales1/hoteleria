@@ -1,12 +1,11 @@
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import { Container } from '../atoms/container/container.component'
+import { Container } from '../../atoms/container/container.component' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhoneAlt,faAlignRight} from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope} from '@fortawesome/free-regular-svg-icons'
 import { faFacebookSquare,faInstagram,faAirbnb } from '@fortawesome/free-brands-svg-icons'
-import { Typography } from '../atoms/typography/typography.component'
-
+import { Typography } from '../../atoms/typography/typography.component' 
 
 export const Navbar = ()=>{
 

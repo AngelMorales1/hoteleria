@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-export const Typography = ({variant,children,color,font,classProp,fontSize,fontWeight})=>{
+export const Typography = ({variant,children,color,font,classProp,fontSize,fontWeight,lineHeight})=>{
  /*
     Mapa para seleccionar la etiqueta a renderizar
   */
@@ -23,7 +23,12 @@ export const Typography = ({variant,children,color,font,classProp,fontSize,fontW
     const Tag = Variants[variant]
 
     return(
-        <Tag className={classProp} style={{color: color, fontFamily: font, fontSize: fontSize,fontWeight:fontWeight}}>
+        <Tag className={classProp} 
+             style={{color: color, 
+                    fontFamily: font, 
+                    fontSize: fontSize,
+                    fontWeight:fontWeight,
+                    lineHeight: lineHeight}}>
             {children}
         </Tag>
     )
@@ -32,14 +37,20 @@ export const Typography = ({variant,children,color,font,classProp,fontSize,fontW
 
 Typography.propTypes={
     variant: PropTypes.oneOf(["h1","h2","h3","h4","p","span"]),
-    className: PropTypes.string,
     color: PropTypes.string,
-    font: PropTypes.string
+    font: PropTypes.string,
+    classProp: PropTypes.string,
+    fontSize: PropTypes.string,
+    fontWeight: PropTypes.string,
+    lineHeight: PropTypes.string
 }
 
 Typography.defaultProps={
     variant: "p",
-    className: "",
     color: "#404040",
-    font: "Poppins"
+    font: "Poppins",
+    classProp:"",
+    fontSize: "",
+    fontWeight:"",
+    lineHeight: ""
 }

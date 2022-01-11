@@ -4,9 +4,9 @@ import { faFacebookSquare,faInstagram,faAirbnb } from '@fortawesome/free-brands-
 import { faPhoneAlt,faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope} from '@fortawesome/free-regular-svg-icons'
 
-import { Typography } from '../atoms/typography/typography.component'
+import { Typography } from '../../atoms/typography/typography.component' 
 
-import { Container } from '../atoms/container/container.component'
+import { Container } from '../../atoms/container/container.component' 
 
 export const Footer = ()=>{
     return(
