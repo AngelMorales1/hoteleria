@@ -9,9 +9,9 @@ export const About = ({title1, title2,text,text2,variant})=>{
     return(
         <>
             {variant === 1 ?
-                <div>
+                <div className='py-[100px]'>
                     <Container>
-                        <div className="flex lg:flex-row flex-col pb-[20px]">
+                        <div className="flex lg:flex-row flex-col pb-[20px] relative">
                             <div className="xl:w-7/12 lg:w-6/12 w-full mb-[20px] relative">
                                 <Typography fontWeight="900" lineHeight="60px" classProp="text-[45px] mini:text-[60px] xs:text-[75px] md:text-[90px] xl:text-[114px]" color="#F4F4F4">{title1}</Typography>
                                 <div className="flex items-center space-x-[20px] mb-[30px]">
@@ -32,7 +32,7 @@ export const About = ({title1, title2,text,text2,variant})=>{
                                     <Image className="rounded-[20px]" src="/img/imgs/fondo.jpg" width={500} height={391}/>
                                 </div>
                             </div>
-                            <div className="absolute right-[25%] top-[40%] hidden xl:block rounded-[20px] overflow-hidden max-w-[400px] w-full h-full max-h-[268px]">
+                            <div className="absolute right-[15%] 2xl:right-[20%] top-[40%] hidden xl:block rounded-[20px] overflow-hidden max-w-[400px] w-full h-full max-h-[268px]">
                                 <Image src="/img/imgs/fondo.jpg" width={400} height={268}/>
                             </div>
                         </div>
@@ -40,16 +40,18 @@ export const About = ({title1, title2,text,text2,variant})=>{
                 </div>:
                 <div>
                     <Container>
-                        <div className="flex lg:flex-row flex-col-reverse pb-[20px] lg:space-x-[68px] relative">
-                            <div className="absolute top-[100px] hidden lg:block rounded-[20px] overflow-hidden max-w-[336px] max-h-[263px] w-full h-full">
-                                <Image className="rounded-[20px]" src="/img/imgs/fondo.jpg" width={336} height={263}/>
-                            </div>
-                            <div className="lg:w-6/12 w-full flex justify-center lg:justify-end">
-                                <div className="rounded-[20px] overflow-hidden max-w-[423px] max-h-[454px] w-full h-full">
-                                    <Image className="rounded-[20px]" src="/img/imgs/fondo.jpg" width={423} height={454}/>
+                        <div className="flex lg:flex-row flex-col-reverse pb-[20px] lg:space-x-[68px]">
+                            <div className="relative w-full h-full ">
+                                <div className="absolute lg:top-[100px] right[10px] hidden sm:block sm:top-[100px] rounded-[20px] overflow-hidden max-w-[336px] max-h-[263px] w-full h-full">
+                                    <Image className="rounded-[20px]" src="/img/imgs/fondo.jpg" width={336} height={263}/>
+                                </div>
+                                <div className="w-full flex justify-center lg:justify-end">
+                                    <div className="rounded-[20px] overflow-hidden max-w-[423px] max-h-[454px] w-full h-full">
+                                        <Image className="rounded-[20px]" src="/img/imgs/fondo.jpg" width={423} height={454}/>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="lg:w-6/12 w-full mb-[20px] relative">
+                            <div className="lg:w-6/12 w-full mb-[20px]">
                                 <Typography fontWeight="900" lineHeight="60px" classProp="text-[45px] mini:text-[60px] xs:text-[75px] md:text-[90px] xl:text-[104px]" color="#F4F4F4">{title1}</Typography>
                                 <div className="flex items-center space-x-[20px] mb-[10px]">
                                     <div className="h-fit"><Image className="self-center" src="/img/dots.png" width={21} height={9}/></div>
