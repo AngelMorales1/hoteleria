@@ -9,12 +9,13 @@ module.exports = {
       borderRadius: {
         'large': '50px',
         'Xlarge': '100px'
-      },
-      screens: {
-        'mini': '340px',
-        ...defaultTheme.screens
       }
     },
+    screens: {
+      'mini': '375px',
+      'xs': '475px',
+      ...defaultTheme.screens
+    }
   },
   variants: {},
   plugins: []
