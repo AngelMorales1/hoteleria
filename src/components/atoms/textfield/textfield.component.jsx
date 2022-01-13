@@ -23,6 +23,7 @@ export const TextField = ({placeholder,textarea,select,options,label,type,onSubm
               fontFamily: "Poppins",
               fontSize: "12px",
               color: "#AFAFAF",
+              background: "white"
             }}
           >
             {options.map((option, idx) => (

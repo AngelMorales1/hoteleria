@@ -9,7 +9,7 @@ export const About = ({title1, title2,text,text2,variant})=>{
     return(
         <>
             {variant === 1 ?
-                <div className='py-[100px]'>
+                <div className='py-[50px]'>
                     <Container>
                         <div className="flex lg:flex-row flex-col pb-[20px] relative">
                             <div className="xl:w-7/12 lg:w-6/12 w-full mb-[20px] relative">
@@ -38,7 +38,7 @@ export const About = ({title1, title2,text,text2,variant})=>{
                         </div>
                     </Container>
                 </div>:
-                <div>
+                <div className='py-[50px]'>
                     <Container>
                         <div className="flex lg:flex-row flex-col-reverse pb-[20px] lg:space-x-[68px]">
                             <div className="relative w-full h-full ">
