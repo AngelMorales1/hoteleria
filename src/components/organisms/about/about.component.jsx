@@ -22,14 +22,14 @@ export const About = ({title1, title2,text,text2,variant})=>{
                                     <Typography fontWeight="400" color="#404040" fontSize="14px" lineHeight="21px">{text}</Typography>
                                     <Typography fontWeight="400" color="#A0A0A0" fontSize="12px" lineHeight="21px">{text2}</Typography>
                                     <div className="flex items-center space-x-[22px] md:justify-start justify-center">
-                                        <Image src="/img/medal.png" width={54} height={54}/>
+                                        <Image src="/img/medal.png" alt='fondo hotel' width={54} height={54} />
                                         <Typography fontWeight="500" color="#5B5B5B" fontSize="20px" lineHeight="30px">Superanfitrión en airbnb</Typography>
                                     </div>
                                 </div>
                             </div>
                             <div className="xl:w-5/12 lg:w-6/12 w-full flex justify-center lg:justify-end">
                                 <div className="rounded-[20px] overflow-hidden ml-[0] md:ml-[50px] max-w-[500px] max-h-[391px] xl:max-w-[430px] w-full h-full xl:max-h-[337px]">
-                                    <Image className="rounded-[20px]" src="/img/imgs/fondo.jpg" width={500} height={391}/>
+                                    <Image className="rounded-[20px]" src="/img/imgs/fondo.jpg" alt='fondo hotel' width={500} height={391}/>
                                 </div>
                             </div>
                             <div className="absolute right-[15%] 2xl:right-[20%] top-[40%] hidden xl:block rounded-[20px] overflow-hidden max-w-[400px] w-full h-full max-h-[268px]">
@@ -43,11 +43,11 @@ export const About = ({title1, title2,text,text2,variant})=>{
                         <div className="flex lg:flex-row flex-col-reverse pb-[20px] lg:space-x-[68px]">
                             <div className="relative w-full h-full ">
                                 <div className="absolute lg:top-[100px] right[10px] hidden sm:block sm:top-[100px] rounded-[20px] overflow-hidden max-w-[336px] max-h-[263px] w-full h-full">
-                                    <Image className="rounded-[20px]" src="/img/imgs/fondo.jpg" width={336} height={263}/>
+                                    <Image className="rounded-[20px]" src="/img/imgs/fondo.jpg" alt='fondo hotel' width={336} height={263}/>
                                 </div>
                                 <div className="w-full flex justify-center lg:justify-end">
                                     <div className="rounded-[20px] overflow-hidden max-w-[423px] max-h-[454px] w-full h-full">
-                                        <Image className="rounded-[20px]" src="/img/imgs/fondo.jpg" width={423} height={454}/>
+                                        <Image className="rounded-[20px]" src="/img/imgs/fondo.jpg" alt='fondo hotel' width={423} height={454}/>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ export const About = ({title1, title2,text,text2,variant})=>{
                                     <Typography fontWeight="400" color="#404040" fontSize="14px" lineHeight="21px">{text}</Typography>
                                     <Typography fontWeight="400" color="#A0A0A0" fontSize="12px" lineHeight="21px">{text2}</Typography>
                                     <div className="flex items-center space-x-[22px] md:justify-start justify-center">
-                                        <Image src="/img/medal.png" width={54} height={54}/>
+                                        <Image src="/img/medal.png" alt='fondo hotel' width={54} height={54}/>
                                         <Typography fontWeight="500" color="#5B5B5B" fontSize="20px" lineHeight="30px">Superanfitrión en airbnb</Typography>
                                     </div>
                                     <div className="pt-[10px] w-full md:w-[163px]">

@@ -13,12 +13,12 @@ export const Footer = ()=>{
         <div className='rounded-t-large' style={{background:"#123E61"}}>
             <Container>
                 <div className="flex justify-between items-center flex-col space-y-20 py-20 sm:flex-row sm:space-y-0 sm:pt-40 pb-15 ">
-                    <Image src="/img/logo.png" width={240} height={76}/>
+                    <Image src="/img/logo.png" alt='fondo hotel' width={240} height={76}/>
                     <div className="space-x-10 flex items-center">
                         <FontAwesomeIcon icon={faFacebookSquare} style={{color: '#B5A067', fontSize:"18px"}}/>
                         <FontAwesomeIcon icon={faInstagram} style={{color: '#B5A067', fontSize:"18px"}}/>
                         <div className='flex items-center'>
-                            <Image src="/img/tripadvisor.png" width={26} height={17}/>
+                            <Image src="/img/tripadvisor.png" alt='fondo hotel' width={26} height={17}/>
                         </div>
                         <FontAwesomeIcon icon={faAirbnb} style={{color: '#B5A067', fontSize:"18px"}}/>
                     </div>

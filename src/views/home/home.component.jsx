@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { useEffect, useState } from "react"
 import { Container } from "../../components/atoms/container/container.component"
 import { Typography } from "../../components/atoms/typography/typography.component"
 import { About } from "../../components/organisms/about/about.component"
@@ -7,8 +6,6 @@ import { Header } from "../../components/organisms/Header/Header.component"
 import { Services } from "../../components/organisms/services/services.component"
 
 export const HomePage = ()=>{
-
-    const array = [1,2,3,4]
 
     return(
         <div>
@@ -36,7 +33,7 @@ export const HomePage = ()=>{
                     </div>
                     <div className="pt-[50px] grid lg:grid-cols-2 lg:gid-rows-2 lg:gap-3 grid-cols-1 grid-rows-1 gap-[30px]">
                        <div className="h-min">
-                            <Image className="rounded-xl" src="/img/imgs/fondo.jpg" width={700} height={700} objectFit="cover"/>
+                            <Image className="rounded-xl" src="/img/imgs/fondo.jpg" alt='fondo hotel' width={700} height={700} objectFit="cover"/>
                        </div>
 
                        <div className="rounded-xl bg-[#F8F7F4] p-[52px] text-left row-start-1 md:row-start-2">
@@ -80,7 +77,7 @@ export const HomePage = ()=>{
                         </div>
 
                        <div className="h-min">
-                            <Image className="rounded-xl" src="/img/imgs/fondo.jpg" width={700} height={700} objectFit="cover"/>
+                            <Image className="rounded-xl" src="/img/imgs/fondo.jpg" alt='fondo hotel' width={700} height={700} objectFit="cover"/>
                        </div>
                     </div>
                 </div>
@@ -91,10 +88,10 @@ export const HomePage = ()=>{
                         <Typography classProp="text-[50px] mini:text-[60px] xs:text-[80px] absolute top-[-15px] left-[0] right-[0] top-[0] ml-auto mr-auto" color="#F4F4F4" fontWeight="900">Galeria</Typography>
                     </div>
                     <div className="py-[30px] grid grid-cols-2 gap-[20px] grid-rows-2 lg:grid-cols-4 lg:grid-rows-1">
-                        <Image className="rounded-xl hidden lg:block" src="/img/imgs/fondo.jpg" width={290} height={290} objectFit="cover"/>
-                        <Image className="rounded-xl" src="/img/imgs/fondo.jpg" width={290} height={290} objectFit="cover"/>
-                        <Image className="rounded-xl" src="/img/imgs/fondo.jpg" width={290} height={290} objectFit="cover"/>
-                        <Image className="rounded-xl" src="/img/imgs/fondo.jpg" width={290} height={290} objectFit="cover"/>
+                        <Image className="rounded-xl hidden lg:block" src="/img/imgs/fondo.jpg" alt='fondo hotel' width={290} height={290} objectFit="cover"/>
+                        <Image className="rounded-xl" src="/img/imgs/fondo.jpg" alt='fondo hotel' width={290} height={290} objectFit="cover"/>
+                        <Image className="rounded-xl" src="/img/imgs/fondo.jpg" alt='fondo hotel' width={290} height={290} objectFit="cover"/>
+                        <Image className="rounded-xl" src="/img/imgs/fondo.jpg" alt='fondo hotel' width={290} height={290} objectFit="cover"/>
                     </div>
                 </div>
                 

@@ -10,7 +10,7 @@ export const Header = ({variant,title,description,image})=>{
         <>
             {variant===1 ?
                 <section className="w-full rounded-b-Xlarge h-[500px] relative">
-                    <Image className='rounded-b-Xlarge' src={image} layout='fill' objectFit='cover'/>
+                    <Image className='rounded-b-Xlarge' alt='fondo hotel' src={image} layout='fill' objectFit='cover'/>
                     <Container>
                         <div className="absolute top-[190px]">
                             <Typography fontWeight="800" color="white" classProp="text-[60px] md:text-[80px]">{title}</Typography>
@@ -19,7 +19,7 @@ export const Header = ({variant,title,description,image})=>{
                 </section>
             :
             <section className="w-full rounded-none md:rounded-b-Xlarge h-[700px] md:h-[930px] relative overflow-visible lg:overflow-hidden  mb-[300px] mini:mb-[250px] sm:mb-[200px] md:mb-[300px] lg:mb-[50px]">
-                <Image src={image} layout='fill' objectFit='cover'/>
+                <Image src={image} layout='fill' objectFit='cover' alt='fondo hotel'/>
                 <div className="absolute w-full space-y-[60px] md:space-y-[168px] left-[0px] top-[100px] md:top-[170px]">
                     <div className="text-center space-y-[30px]">
                         <Typography fontWeight="800" color="white" classProp="text-[60px] md:text-[80px]">

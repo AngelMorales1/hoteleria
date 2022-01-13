@@ -37,7 +37,7 @@ export const Navbar = ()=>{
                                 <FontAwesomeIcon icon={faFacebookSquare} style={{color: '#B5A067'}}/>
                                 <FontAwesomeIcon icon={faInstagram} style={{color: '#B5A067'}}/>
                                 <div className='w-6 flex items-center '>
-                                    <Image src="/img/tripadvisor.png" width={26} height={17}/>
+                                    <Image src="/img/tripadvisor.png" alt='icon' width={26} height={17}/>
                                 </div>
                                 <FontAwesomeIcon icon={faAirbnb} style={{color: '#B5A067', fontSize:"18px"}}/>
                         </div>
@@ -48,7 +48,7 @@ export const Navbar = ()=>{
                         <Container classProps="">
                             <div className="flex justify-between items-center">
                                 <div className='w-48'>
-                                    <Image src="/img/logo2.svg" width={500} height={300}/>
+                                    <Image src="/img/logo2.svg" alt='fondo hotel' width={500} height={300}/>
                                 </div>
                                 <div className='flex flex-column space-x-3 xl:space-x-20 lg:space-x-10'>
                                     <Typography variant='p' fontWeight='400' fontSize='16px' color='#404040'>INICIO </Typography>
@@ -66,7 +66,7 @@ export const Navbar = ()=>{
                         <Container classProps="relative">
                             <div className="flex justify-between items-center">
                                 <div className='w-48'>
-                                    <Image src="/img/logo2.svg" width={500} height={300}/>
+                                    <Image src="/img/logo2.svg" alt='fondo hotel' width={500} height={300}/>
                                 </div>
                                 <div>
                                     <FontAwesomeIcon className='fon' style={{fontSize:"26px"}} icon={faAlignRight} onClick={()=>{setMenu(true)}}/>
@@ -76,7 +76,7 @@ export const Navbar = ()=>{
                                 <div className="flex flex-col justify-start bg-slate-900/50 w-full min-h-screen z-10 top-0 left-0 fixed">
                                     <div className='flex flex-col w-11/12 bg-white min-h-screen'>
                                         <div className="flex justify-end w-full p-5">
-                                            <Image src="/img/cross.png" onClick={()=>{setMenu(false)}} width={20} height={20}/>
+                                            <Image src="/img/cross.png" alt='icon' onClick={()=>{setMenu(false)}} width={20} height={20}/>
                                         </div>
 
                                         <div className='space-y-4 px-10'>
