@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Typography } from "../../atoms/typography/typography.component"
 
-export const IconCard = ({icon,title,text})=>{
+export const IconCard = ({title,text,icon})=>{
     return (
         <>
             <div className="w-full flex flex-col items-center">
@@ -18,14 +18,15 @@ export const IconCard = ({icon,title,text})=>{
     )
 }
 
-IconCard.PropTypes={  
+IconCard.propTypes={  
     title: PropTypes.string,
     text: PropTypes.string,
-    value: PropTypes.string
+    icon: PropTypes.object
   }
 
 IconCard.defaultProps={
     title: "",
     text: "",
-    select: false
+    icon: {}
+    
  }

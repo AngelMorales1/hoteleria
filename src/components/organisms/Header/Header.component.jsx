@@ -13,7 +13,7 @@ export const Header = ({variant,title,description,image})=>{
                     <Image className='rounded-b-Xlarge' src={image} layout='fill' objectFit='cover'/>
                     <Container>
                         <div className="absolute top-[190px]">
-                            <Typography fontWeight={800} color="white" classProp="text-[60px] md:text-[80px]">{title}</Typography>
+                            <Typography fontWeight="800" color="white" classProp="text-[60px] md:text-[80px]">{title}</Typography>
                         </div>
                     </Container>
                 </section>
@@ -22,11 +22,11 @@ export const Header = ({variant,title,description,image})=>{
                 <Image src={image} layout='fill' objectFit='cover'/>
                 <div className="absolute w-full space-y-[60px] md:space-y-[168px] left-[0px] top-[100px] md:top-[170px]">
                     <div className="text-center space-y-[30px]">
-                        <Typography fontWeight={800} color="white" classProp="text-[60px] md:text-[80px]">
+                        <Typography fontWeight="800" color="white" classProp="text-[60px] md:text-[80px]">
                             {title}
                         </Typography>
                         <div className="text-left px-[16px] mx-auto xl:w-[880px]">
-                            <Typography fontWeight={400} color="white" classProp="text-[16px] md:text-[24px]">
+                            <Typography fontWeight="400" color="white" classProp="text-[16px] md:text-[24px]">
                                 {description}
                             </Typography>
                         </div>

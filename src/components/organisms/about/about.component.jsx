@@ -82,7 +82,7 @@ About.propTypes={
     title2: PropTypes.string,
     text: PropTypes.string,
     text2: PropTypes.string,
-    variant: PropTypes.string
+    variant: PropTypes.number
 }
 
 About.defaultProps={
@@ -90,5 +90,5 @@ About.defaultProps={
     title2: "",
     text:"",
     text2: "",
-    variant: "1"
+    variant: 1
 }
